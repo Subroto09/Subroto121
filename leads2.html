@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="sin.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="background">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form name="f1" action = "authentication2.php" onsubmit = "return validation()" method = "POST">
+              <div class="user-box">
+                <input type="text" id="username" name="username" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="password" id="password" name="password" required="">
+                <label>Password</label>
+              </div>
+              <a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <input type="submit" name="butt" value="Submit" style="border:none;background-color: transparent;color: white;font-size: 20px;">
+              </a>
+              
+            </form>
+          </div>
+    </div>
+</div>
+
+<script>  
+    function validation()  
+    {  
+        var username=document.f1.username.value;  
+        var password=document.f1.password.value;  
+        if(username.length=="" && password.length=="") {  
+            alert("User Name and Password fields are empty");  
+            return false;  
+        }  
+        else  
+        {  
+            if(username.length=="") {  
+                alert("User Name is empty");  
+                return false;  
+            }   
+            if (password.length=="") {  
+            alert("Password field is empty");  
+            return false;  
+            }  
+        }                             
+    }  
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+
+

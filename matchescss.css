@@ -1,0 +1,186 @@
+.picon
+{
+    border-radius: 50%;
+    display: inline;
+    padding: 0%;
+    height: 200px;
+    border:10px solid rgba(255, 253, 253, 0.198);
+   
+}
+
+.pname
+{
+    display: inline;
+    color: rgb(255, 255, 255);
+    padding: 70px;
+}
+
+.body
+{
+    padding: 3%;
+    display: flex;
+    border-bottom: 5px solid black;
+}
+
+.lines
+{
+    height: 30px;
+}
+
+.pnav{
+    background-color: rgb(13, 1, 82);
+    background-image: url(pnav.jpg);
+    overflow: hidden;
+    text-align: center;
+    padding: 1%;
+    border: none    ;
+    
+}
+
+.pnav a{
+    color: #f2f2f2;
+    text-align: center;
+    align-items:center ;
+    padding: 16px 40px ;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+
+.pnav a:hover{
+    border-bottom: 10px solid white; 
+    
+}
+
+.parent
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(222, 222, 222);
+}
+
+.parent div{
+    padding: 10px 20px;
+    
+    
+    
+}
+.achild
+{
+    background-image: url(graybg.jpg);
+    padding-left: 40px;
+    border-right: 1px solid white;
+}
+
+.bchild
+{
+    background-image: url(bgray.jpg);
+    height: 500px;
+    width: 100%;
+}
+
+.CRating
+{
+   
+    display: flex;
+    
+}
+.rank{
+    height: 100px;
+    display: inline;
+}
+
+.rating
+{
+    height: 25px;
+    display: inline;
+
+    
+}
+
+.flexrating
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body
+{
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-size: 100%;
+    z-index: -1;
+    height: 300px;
+}
+
+.overview
+{
+    display: flex;
+}
+
+.overview p{
+    padding: 9px;
+    font-size: 20px;
+}
+
+.elements
+{
+    /*border: 2px solid rgb(255, 255, 255);*/
+    border-radius: 5%;
+    color: white;
+    /*background-image: url(blackbg.webp);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-size: 100%;
+    width: 100%;
+    
+}
+
+.micon
+{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.history
+{
+    color: white;
+    
+}
+
+.center
+{
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+
+
+th
+{
+   /* border: 2px solid white; */
+    align-items: center;
+   
+    padding: 15px 50px 15px 50px;
+    font-size: 20px;
+}
+td
+{
+    
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+}
